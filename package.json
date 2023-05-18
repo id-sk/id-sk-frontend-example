@@ -1,0 +1,15 @@
+{
+  "name": "id-sk-frontend-example",
+  "version": "1.0.0",
+  "description": "Example site using id-sk-frontend dist files",
+  "main": "src/server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "author": "Slovensko IT",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.4"
+  }
+}
