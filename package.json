@@ -1,13 +1,13 @@
 {
   "name": "id-sk-frontend-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example node.js express app using id-sk-frontend npm package.",
   "main": "src/index.mjs",
   "scripts": {
     "start": "npm run scss && node src/index.mjs",
     "scss": "gulp sass"
   },
-  "author": "",
+  "author": "Slovensko IT",
   "license": "ISC",
   "dependencies": {
     "@id-sk/frontend": "^2.10.0",
