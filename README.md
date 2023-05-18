@@ -10,3 +10,6 @@ npm install
 ```
 npm start
 ```
+
+## Live example
+You may play around with the interactive example [here](https://stackblitz.com/edit/node-smv2tj?file=src/index.mjs).
