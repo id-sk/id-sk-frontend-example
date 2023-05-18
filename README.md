@@ -1,2 +1,2 @@
 # id-sk-frontend-example
-Example node.js express app using id-sk-frontend library
+Example site using id-sk-frontend dist files.

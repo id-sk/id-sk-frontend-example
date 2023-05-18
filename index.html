@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8" />
+  <title>Ukážka</title>
+  <!--[if !IE 8]><!-->
+  <link rel="stylesheet" href="idsk-frontend-2.10.0.min.css">
+  <!--<![endif]-->
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="idsk-frontend-ie8-2.10.0.min.css">
+  <![endif]-->
+
+  <style>
+      .container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+      }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Copy and paste component HTML-->
+  <div class="idsk-card idsk-card-hero">
+    <a href="https://idsk.gov.sk" title="ID-SK Frontend">
+      <img class="idsk-card-img idsk-card-img-hero" src="assets/images/idsk-logo.svg" alt="ID-SK Frontend" aria-hidden="true" />
+    </a>
+    <div class="idsk-card-content idsk-card-content-hero">
+      <div class="idsk-heading idsk-heading-hero">
+        <a href="https://idsk.gov.sk" class="idsk-card-title govuk-link" title="ID-SK Frontend">ID-SK Frontend</a>
+      </div>
+      <p class="idsk-body idsk-body-hero">
+        ID-SK Frontend – Jednotný dizajn manuál elektronických služieb a webových sídiel
+      </p>
+    </div>
+  </div>
+
+  <a href="https://idsk.gov.sk/vzory/homepage" role="button" draggable="false" class="idsk-button idsk-button--start" data-module="idsk-button">
+    Zobraziť príklad stránky
+    <svg class="idsk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" role="presentation" focusable="false">
+      <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"/>
+    </svg>
+  </a>
+</div>
+
+<script src="idsk-frontend-2.10.0.min.js"></script>
+<script>window.GOVUKFrontend.initAll()</script>
+</body>
+</html>
